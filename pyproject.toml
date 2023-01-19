@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "toggl-work-reports"
+version = "0.0.1"
+description = "Perform routine toggl work report generation or calculations"
+authors = ["d33bs <ekgto445@gmail.com>"]
+license = "Apache License 2.0"
+readme = "README.md"
+packages = [{include = "toggl_work_reports"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+togglpy = "^0.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
